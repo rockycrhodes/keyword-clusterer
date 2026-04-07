@@ -88,7 +88,7 @@ Open `kfinder.py` and look at the **Config** section near the top. These are the
 
 | Variable | What it controls | When to change it |
 |----------|-----------------|-------------------|
-| `K_LIST` | Range of *k* values to test | Lower these if your dataset has fewer than ~600 unique keywords. All values must be less than the number of unique keywords. |
+| `K_LIST` | Range of *k* values to test | Lower these if your dataset has fewer than ~600 unique keywords. All values must be less than the number of unique keywords. Adjust based on how many topics you think may be in your dataset as this can vary widely by site or due to filtering.|
 | `COL_KEYWORD` | Column name containing the keywords | Change if your CSV uses a different header (e.g., `"Keyword"`, `"Query"`, `"Search Query"`) |
 | `COL_URL` | Column name for the ranking URL (optional) | Set to the column name if your CSV includes URLs — adds topical signal from the URL slug. Set to `None` if not present. |
 | `COL_INTENT` | Column name for search intent (optional) | Set to the column name if your data includes intent classification. Set to `None` if not present. |
