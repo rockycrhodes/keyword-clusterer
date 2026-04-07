@@ -1,6 +1,6 @@
 # Keyword Clustering Toolkit
 
-Two-script workflow for grouping keywords into topical clusters using KMeans. Designed for SEO keyword analysis on GSC exports, Ahrefs/Semrush data, AI prompts or any CSV with a unique text column.
+Two-script workflow for grouping keywords or AI Prompts into topical clusters using KMeans. Designed for SEO keyword analysis on GSC exports, Ahrefs/Semrush data, AI prompts or any CSV with a unique text column.
 
 ## How it works
 
